@@ -1,0 +1,18 @@
+body{
+    background-color:grey;
+}
+
+#contact{
+    background-color:white;
+    width:600px;
+    height:500px;
+    margin:5% auto;
+    #font-family:cursive;
+    #color:red;
+}
+#contact table td{
+    padding:40px;
+    width:50%; 
+    vertical-align:top;   
+}
+ 

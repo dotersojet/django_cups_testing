@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "app_t1.contacts", "fields": {"bio": "school\r\nuniversity\r\nnow\r\n", "last_name": "Samoylenko", "name": "kolian", "other_contacts": "Ukraine, Chernigiv", "date_of_birth": "2013-11-23", "skype": "kolian1611", "jabber": "kolian@42cc.co", "email": "python_django@mail.ru"}}]

@@ -1,0 +1,23 @@
+{%extends 'base.html' %}
+{% block main%}
+<form id="contact" action="" method="GET">
+    <table>
+        <tr>
+            <td>
+                <p>Name - {{my_contact.name}}</br>
+                <p>Last name - {{my_contact.last_name}}</br>
+                <p>Date of birth - {{my_contact.date_of_birth}}</br>
+                <p>Bio</br>
+                <p>{{my_contact.bio}}</br>
+            </td>
+            <td>
+                <p>Email - {{my_contact.email}}</br> 
+                <p>Jabber - {{my_contact.jabber}}</br>
+                <p>Skype - {{my_contact.skype}}</br> 
+                <p>Other contacts</br>
+                <p>{{my_contact.other_contacts}}</br> 
+            </td>
+        </tr>
+    </table>
+</form>
+{% endblock%}
