@@ -2,7 +2,7 @@ body{
     background-color:grey;
 }
 
-#contact{
+#contact,#requests{
     background-color:white;
     width:600px;
     height:500px;
@@ -15,4 +15,20 @@ body{
     width:50%; 
     vertical-align:top;   
 }
- 
+
+#contact a{
+    margin:50px;
+} 
+
+#requests ol{
+    padding-right:30px;
+    
+}
+#requests li{
+    padding:5px;
+    font-family:Verdana;
+}
+
+*{
+    #border:1px solid red;
+}
