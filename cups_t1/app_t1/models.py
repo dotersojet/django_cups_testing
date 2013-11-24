@@ -11,3 +11,7 @@ class Contacts(models.Model):
     jabber=models.CharField(max_length=20,blank=True,null=True)
     skype=models.CharField(max_length=20,blank=True,null=True)
     other_contacts=models.TextField(blank=True,null=True)
+    
+class Request(models.Model):
+    name=models.CharField(max_length=20,blank=True,null=True)
+    time=models.DateTimeField(blank=True,null=True)
