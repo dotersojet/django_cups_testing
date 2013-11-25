@@ -2,7 +2,7 @@ body{
     background-color:grey;
 }
 
-#contact,#requests{
+.contact,.requests{
     background-color:white;
     width:600px;
     height:500px;
@@ -10,21 +10,21 @@ body{
     #font-family:cursive;
     #color:red;
 }
-#contact table td{
+.contact table td{
     padding:40px;
     width:50%; 
     vertical-align:top;   
 }
 
-#contact a{
+.contact a{
     margin:50px;
 } 
 
-#requests ol{
+.requests ol{
     padding-right:30px;
     
 }
-#requests li{
+.requests li{
     padding:5px;
     font-family:Verdana;
 }
