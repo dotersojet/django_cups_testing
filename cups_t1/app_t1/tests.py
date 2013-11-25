@@ -29,11 +29,11 @@ class MiddlewareTest(TestCase):
         self.assertEqual(test_addr.name,'1.1.1.1')
         
 class ContextProcessorsTest(TestCase):
-    det test_context_proc(self):
+    def test_context_proc(self):
         from django.conf import settings
         from django.template import RequestContext        
         factory=RequestFactory()
-        request=factory('/')
+        request=factory.get('/')
         c=RequestContext(request)
         self.assertTrue('settings' in c)
         self.assertTrue('BASE_DIR' in c['settings'])
