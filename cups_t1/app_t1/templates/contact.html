@@ -1,25 +1,25 @@
-{%extends 'base.html' %}
-{% block main%}
-<form id="contact" action="" method="GET">
+{% extends 'base.html' %}
+{% block main %}
+<form class="contact" action="" method="GET">
     <table>
         <tr>
             <td>
-                <p>Name - {{my_contact.name}}</br>
-                <p>Last name - {{my_contact.last_name}}</br>
-                <p>Date of birth - {{my_contact.date_of_birth}}</br>
-                <p>Bio:</br>
-                <p>{{my_contact.bio}}</br>
+                <p>Name - {{my_contact.name}}</p>
+                <p>Last name - {{my_contact.last_name}}</p>
+                <p>Date of birth - {{my_contact.date_of_birth}}</p>
+                <p>Bio:</p>
+                <p>{{my_contact.bio}}</p>
             </td>
             <td>
-                <p>Email - {{my_contact.email}}</br> 
-                <p>Jabber - {{my_contact.jabber}}</br>
-                <p>Skype - {{my_contact.skype}}</br> 
-                <p>Other contacts:</br>
-                <p>{{my_contact.other_contacts}}</br> 
+                <p>Email - {{my_contact.email}}</p>
+                <p>Jabber - {{my_contact.jabber}}</p>
+                <p>Skype - {{my_contact.skype}}</p>
+                <p>Other contacts:</p>
+                <p>{{my_contact.other_contacts}}</p>
             </td>
         </tr>
     </table>
     </br><hr>
     <a href="requests/">requests</a>
 </form>
-{% endblock%}
+{% endblock %} 

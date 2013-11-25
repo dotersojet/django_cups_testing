@@ -1,6 +1,6 @@
-{%extends 'base.html' %}
-{% block main%}
-<form id="requests" action="" method="GET">
+{% extends 'base.html' %}
+{% block main %}
+<form class="requests" action="" method="GET">
     <ol><h1>The last 10 request</h1>
     {% for i in lst %}
         <li> 
@@ -9,4 +9,4 @@
     {% endfor %}
     </ol>     
 </form>
-{% endblock%}
+{% endblock %}
