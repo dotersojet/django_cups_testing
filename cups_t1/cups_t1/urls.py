@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     (r'^$','app_t1.views.contact_page'),
+    (r'^requests/$','app_t1.views.requests_show'),
 )
