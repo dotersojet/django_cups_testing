@@ -50,6 +50,11 @@ MIDDLEWARE_CLASSES = (
     'app_t1.middleware.RequestCounting',
 )
 
+TEMPLATE_CONTEXT_PROCESSORS=(
+    'app_t1.context_processors.settings_context_processor',
+    'django.contrib.auth.context_processors.auth',
+)
+
 ROOT_URLCONF = 'cups_t1.urls'
 
 WSGI_APPLICATION = 'cups_t1.wsgi.application'
