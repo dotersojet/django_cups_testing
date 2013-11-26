@@ -46,12 +46,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'app_t1.middleware.RequestCounting',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware', 
 )
 
-TEMPLATE_CONTEXT_PROCESSORS=(
-    'app_t1.context_processors.settings_context_processor',
+TEMPLATE_CONTEXT_PROCESSORS=( 
     'django.contrib.auth.context_processors.auth',
 )
 
