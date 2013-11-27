@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Contacts(models.Model):
+class Contacts(models.Model): 
     """
     Model class which contain fields of 
     information on the main page
@@ -13,5 +13,4 @@ class Contacts(models.Model):
     email=models.EmailField(blank=True, null=True)
     jabber=models.CharField(max_length=20, blank=True, null=True)
     skype=models.CharField(max_length=20, blank=True, null=True)
-    other_contacts=models.TextField(blank=True, null=True)
-
+    other_contacts=models.TextField(blank=True, null=True) 

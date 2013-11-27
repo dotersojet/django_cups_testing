@@ -11,8 +11,7 @@ class Ticket1Test(TestCase):
     def setUp(self):
         """
         Set up initial data
-        """
-        #self.client = Client()
+        """  
         self.con = Contacts(name='kolian',skype='kolian1611')
         self.con.save()
     
@@ -22,3 +21,4 @@ class Ticket1Test(TestCase):
         """
         resp = Client().get(reverse('contact_page'))
         self.assertContains(resp, 'kolian1611', status_code=200) 
+ 
