@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.test.client import Client,RequestFactory
-from django.core.urlresolvers import resolve
+from django.core.urlresolvers import reverse
 from app_t1.views import contact_page
 from app_t1.models import Contacts
 
@@ -9,13 +9,16 @@ from app_t1.models import Contacts
 
 class Ticket1Test(TestCase):
     def setUp(self):
-        self.client = Client()
-        self.con = Contacts(name = 'kolian',skype = 'kolian1611')
+        """
+        Set up initial data
+        """
+        #self.client = Client()
+        self.con = Contacts(name='kolian',skype='kolian1611')
         self.con.save()
-        
+    
     def test_contact_page(self):
-        found=resolve('/')
-        resp=self.client.get('/')   
-        self.assertEqual(found.func,contact_page) 
-        self.assertContains(resp,'kolian1611',status_code=200) 
-
+        """
+        Test our view response
+        """
+        resp = Client().get(reverse('contact_page'))
+        self.assertContains(resp, 'kolian1611', status_code=200) 
