@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block main %}
-<form class="contact" action="" method="GET">
+<div class="contact">
     <table>
         <tr>
             <td>
@@ -11,15 +11,15 @@
                 <p>{{my_contact.bio}}</p>
             </td>
             <td>
-                <p>Email - {{my_contact.email}}</p>
+                <p>Email - {{my_contact.email}}</p> 
                 <p>Jabber - {{my_contact.jabber}}</p>
-                <p>Skype - {{my_contact.skype}}</p>
+                <p>Skype - {{my_contact.skype}}</p> 
                 <p>Other contacts:</p>
-                <p>{{my_contact.other_contacts}}</p>
+                <p>{{my_contact.other_contacts}}</p> 
             </td>
         </tr>
-    </table>
+    </table> 
     </br><hr>
-    <a href="requests/">requests</a>
-</form>
-{% endblock %} 
+    <a href='requests/'>requests</a>  
+</div>
+{% endblock %}

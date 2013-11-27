@@ -1,0 +1,531 @@
+[
+{
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "logentry", 
+        "name": "log entry", 
+        "app_label": "admin"
+    }
+},
+{
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "permission", 
+        "name": "permission", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "group", 
+        "name": "group", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "user", 
+        "name": "user", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contenttype", 
+        "name": "content type", 
+        "app_label": "contenttypes"
+    }
+},
+{
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "session", 
+        "name": "session", 
+        "app_label": "sessions"
+    }
+},
+{
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contacts", 
+        "name": "contacts", 
+        "app_label": "app_t1"
+    }
+},
+{
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "requests", 
+        "name": "requests", 
+        "app_label": "app_t1"
+    }
+},
+{
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "migrationhistory", 
+        "name": "migration history", 
+        "app_label": "south"
+    }
+},
+{
+    "pk": "q1uy7x0tqtflxtgxhcssfyffb9j51bs3", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2013-12-11T15:36:53.441Z", 
+        "session_data": "ODA5ZTExYjYzYmI0ZTU5Yzg4MmMyOGUwODI4YjE1N2IyNDc0NjU0Yzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+    }
+},
+{
+    "pk": 1, 
+    "model": "app_t1.contacts", 
+    "fields": {
+        "bio": "school\r\nuniversity\r\nnow ", 
+        "last_name": "Samoylenko", 
+        "name": "kolian", 
+        "other_contacts": "Ukraine, Chernigiv", 
+        "date_of_birth": "2012-12-12", 
+        "skype": "kolian1611", 
+        "jabber": "kolian@42cc.co", 
+        "email": "python_django@mail.ru"
+    }
+},
+{
+    "pk": 1, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:36:47.017Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:36:52.458Z"
+    }
+},
+{
+    "pk": 3, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:36:53.550Z"
+    }
+},
+{
+    "pk": 4, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:37:04.746Z"
+    }
+},
+{
+    "pk": 5, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:37:05.593Z"
+    }
+},
+{
+    "pk": 6, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:37:07.803Z"
+    }
+},
+{
+    "pk": 7, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:37:09.073Z"
+    }
+},
+{
+    "pk": 8, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:39:16.183Z"
+    }
+},
+{
+    "pk": 9, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:39:16.876Z"
+    }
+},
+{
+    "pk": 10, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:39:17.911Z"
+    }
+},
+{
+    "pk": 11, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:39:20.727Z"
+    }
+},
+{
+    "pk": 12, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:39:24.653Z"
+    }
+},
+{
+    "pk": 13, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:41:25.450Z"
+    }
+},
+{
+    "pk": 14, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:41:27.866Z"
+    }
+},
+{
+    "pk": 15, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:41:29.111Z"
+    }
+},
+{
+    "pk": 16, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:43:36.581Z"
+    }
+},
+{
+    "pk": 17, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:47:26.799Z"
+    }
+},
+{
+    "pk": 18, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:47:29.242Z"
+    }
+},
+{
+    "pk": 19, 
+    "model": "app_t1.requests", 
+    "fields": {
+        "name": "127.0.0.1", 
+        "time": "2013-11-27T15:47:30.163Z"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contacts", 
+        "name": "Can add contacts", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contacts", 
+        "name": "Can change contacts", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contacts", 
+        "name": "Can delete contacts", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_requests", 
+        "name": "Can add requests", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_requests", 
+        "name": "Can change requests", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_requests", 
+        "name": "Can delete requests", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_migrationhistory", 
+        "name": "Can add migration history", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_migrationhistory", 
+        "name": "Can change migration history", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_migrationhistory", 
+        "name": "Can delete migration history", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-11-27T15:36:53.419Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$QBmp7KMxUioj$ZZ9xBM2mNNvUAvC/p3JXBcfbgKfP0IaxKvkbjOC5+Os=", 
+        "email": "", 
+        "date_joined": "2013-11-27T15:36:35.675Z"
+    }
+},
+{
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-27T15:39:16.612Z", 
+        "object_repr": "Contacts object", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+}
+]

@@ -2,20 +2,25 @@ body{
     background-color:grey;
 }
 
-#contact{
+.contact, .requests{
     background-color:white;
     width:600px;
     height:500px;
-    margin:5% auto;
-    #font-family:cursive;
-    #color:red;
+    margin:5% auto; 
 }
-#contact table td{
+.contact table td{
     padding:40px;
     width:50%; 
     vertical-align:top;   
 }
 
-*{
-    border:1px solid red;
+.contact a{
+    margin:50px;
+} 
+
+.requests{
+    padding-right:20px;
+    text-align:center;
 }
+ 
+ 
