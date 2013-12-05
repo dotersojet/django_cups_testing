@@ -13,7 +13,7 @@ class RequestCountMiddleware(object):
         """
     
         now_time = datetime.datetime.now()
-        addr = request.META['REMOTE_ADDR']
+        addr = request.path
         new_request = Requests(name=addr, time=now_time)
         new_request.save()
         return None

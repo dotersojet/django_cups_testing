@@ -33,11 +33,8 @@ class Ticket2Test(TestCase):
         Change remote_addr of client and look
         if result page contain such address
         """
-        resp=Client().get(reverse('requests_page'), REMOTE_ADDR='9.9.9.9')
-        self.assertContains(resp, '9.9.9.9', status_code=200)
         
-        
-        
-        
-        
-        
+        resp = Client().get(reverse('requests_page'))
+        self.assertContains(resp, reverse('requests_page'), count=1, status_code=200)
+        resp = Client().get(reverse('requests_page'))
+        self.assertContains(resp, reverse('requests_page'), count=2, status_code=200) 

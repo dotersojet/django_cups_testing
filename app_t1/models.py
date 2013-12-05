@@ -30,4 +30,6 @@ class Requests(models.Model):
         by time
         """
         ordering = ['-time']
-        
+    
+    def __str__(self):
+        return self.name + '\t at ' + str(self.time)
